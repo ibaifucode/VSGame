@@ -1,3 +1,9 @@
 Hecho y publicado por Ibai Fuentes
 
-Juego en desarrollo 1vs1, juego simple en java donde un jugador elige un arma y un personaje y se bate en duelo contra un bot o otro jugador.
+Sistema de juego en desarrollo, creacion y asignacion de armas y personajes a un jugador.
+
+Comenzado el 13/05/2023
+
+14/05/2023
+-Bug arreglado Seleccion de armas y personajes
+-Menu mejorado
