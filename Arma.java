@@ -13,6 +13,8 @@ public class Arma {
     // --------------------------------ATRIBUTOS---------------------------------------
     
     private int id;
+
+
     private int municion;
     private double multiplicadano;
     private double veldisparo;
@@ -65,7 +67,13 @@ public class Arma {
     }
     
     //--------------------------- GETTERS Y SETTERS---------------------------------
-    
+        public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
     public int getMunicion() {
         return municion;
     }

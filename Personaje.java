@@ -10,50 +10,6 @@ package misproyectos.juego;
  */
 public class Personaje {
 
-    public String getNombre() {
-        return nombre;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public int getNivel() {
-        return nivel;
-    }
-
-    public void setNivel(int nivel) {
-        this.nivel = nivel;
-    }
-
-    public int getVida() {
-        return vida;
-    }
-
-    public void setVida(int vida) {
-        this.vida = vida;
-    }
-
-    public double getDanio() {
-        return danio;
-    }
-
-    public void setDanio(double danio) {
-        this.danio = danio;
-    }
-
-    public double getVelocidad() {
-        return velocidad;
-    }
-
     public void setVelocidad(double velocidad) {
         this.velocidad = velocidad;
     }
@@ -98,5 +54,50 @@ public class Personaje {
                 break;
             }
         }
-    }  
+    }
+    
+    //------------------------GETTERS Y SETTERS------------------------------
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public int getNivel() {
+        return nivel;
+    }
+
+    public void setNivel(int nivel) {
+        this.nivel = nivel;
+    }
+
+    public int getVida() {
+        return vida;
+    }
+
+    public void setVida(int vida) {
+        this.vida = vida;
+    }
+
+    public double getDanio() {
+        return danio;
+    }
+
+    public void setDanio(double danio) {
+        this.danio = danio;
+    }
+
+    public double getVelocidad() {
+        return velocidad;
+    }
 }

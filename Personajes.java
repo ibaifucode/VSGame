@@ -9,7 +9,7 @@ package misproyectos.juego;
  * @author Fuente$
  */
 public class Personajes{
-    Personaje[] aPersonajes = new Personaje[3];
+    Personaje[] aPersonajes = new Personaje[4];
     int conta=0;
     
     public void llenarPersonajes(){

@@ -10,13 +10,15 @@ package misproyectos.juego;
  */
 public class Armero {
    //-------------------------ARRAY ARMAS DISPONIBLES---------------------------------
-     Arma[] Armas = new Arma[4];
+     Arma[] Armas = new Arma[5];
+     int conta=0;
     
     //--SE LLENA EN FUNCIÓN DEL NIVEL--
     
     Armero(int nivel){
         for (int cont=0; cont<nivel ; cont++){
             Armas[cont]= new Arma(cont+1);
+            conta++;
         }
     }
     
